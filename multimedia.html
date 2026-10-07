@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML multimedia review.">
+  <title>HTML Review - Multimedia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site">
+    <aside class="sidebar">
+      <a class="logo" href="index.html">&lt;/&gt;</a>
+      <h2>HTML review</h2>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="index.html"><span class="icon">⌂</span>Home & structure</a></li>
+          <li><a class="nav-link" href="formatting.html"><span class="icon">Aa</span>Text formatting</a></li>
+          <li><a class="nav-link" href="links-media.html"><span class="icon">↗</span>Links & media</a></li>
+          <li><a class="nav-link" href="lists.html"><span class="icon">☷</span>Lists</a></li>
+          <li><a class="nav-link" href="tables.html"><span class="icon">▦</span>Tables</a></li>
+          <li><a class="nav-link" href="forms.html"><span class="icon">▤</span>Forms</a></li>
+          <li><a class="nav-link active" href="multimedia.html"><span class="icon">▶</span>Multimedia</a></li>
+          <li><a class="nav-link" href="semantic.html"><span class="icon">#</span>Semantic & layout</a></li>
+          <li><a class="nav-link" href="metadata.html"><span class="icon">◆</span>Metadata</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <div class="page">
+        <section class="hero">
+          <p class="eyebrow">Page 7 · Multimedia</p>
+          <h1>Use media<br><span>inside a page</span></h1>
+          <p>HTML can show video, audio, images and other embedded content.</p>
+        </section>
+
+        <div class="content-grid">
+          <section class="panel">
+            <h3>Video</h3>
+            <video class="content-video" controls poster="images/video-poster.svg">
+              <source src="images/demo-video.mp4" type="video/mp4">
+            </video>
+<pre><code><span class="punct">&lt;</span><span class="tag">video</span> controls<span class="punct">&gt;</span>...<span class="punct">&lt;/</span><span class="tag">video</span><span class="punct">&gt;</span></code></pre>
+          </section>
+
+          <section class="panel">
+            <h3>Audio</h3>
+            <audio class="audio" controls>
+              <source src="images/demo-audio.wav" type="audio/wav">
+            </audio>
+<pre><code><span class="punct">&lt;</span><span class="tag">audio</span> controls<span class="punct">&gt;</span>...<span class="punct">&lt;/</span><span class="tag">audio</span><span class="punct">&gt;</span></code></pre>
+          </section>
+
+          <section class="panel">
+            <h3>SVG image</h3>
+            <img class="content-image" src="images/html-symbol.svg" alt="HTML symbol">
+            <p>SVG images can stay sharp at different sizes.</p>
+          </section>
+
+          <section class="panel">
+            <h3>Iframe</h3>
+            <p>An iframe can show another small web page.</p>
+            <iframe title="Small example" srcdoc="<h3 style='font-family:Arial'>Hello!</h3><p style='font-family:Arial'>This is inside an iframe.</p>"></iframe>
+          </section>
+        </div>
+        <footer>
+          <span>HTML Review · Page 7 of 9</span>
+          <a href="semantic.html">Next: Semantic & layout →</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

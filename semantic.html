@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML semantic and layout tags review.">
+  <title>HTML Review - Semantic & layout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site">
+    <aside class="sidebar">
+      <a class="logo" href="index.html">&lt;/&gt;</a>
+      <h2>HTML review</h2>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="index.html"><span class="icon">⌂</span>Home & structure</a></li>
+          <li><a class="nav-link" href="formatting.html"><span class="icon">Aa</span>Text formatting</a></li>
+          <li><a class="nav-link" href="links-media.html"><span class="icon">↗</span>Links & media</a></li>
+          <li><a class="nav-link" href="lists.html"><span class="icon">☷</span>Lists</a></li>
+          <li><a class="nav-link" href="tables.html"><span class="icon">▦</span>Tables</a></li>
+          <li><a class="nav-link" href="forms.html"><span class="icon">▤</span>Forms</a></li>
+          <li><a class="nav-link" href="multimedia.html"><span class="icon">▶</span>Multimedia</a></li>
+          <li><a class="nav-link active" href="semantic.html"><span class="icon">#</span>Semantic & layout</a></li>
+          <li><a class="nav-link" href="metadata.html"><span class="icon">◆</span>Metadata</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <div class="page">
+        <section class="hero">
+          <p class="eyebrow">Page 8 · Semantic and layout tags</p>
+          <h1>Give tags<br><span>a clear job</span></h1>
+          <p>Semantic tags make the structure of a page easier to understand.</p>
+        </section>
+
+        <div class="content-grid">
+          <section class="panel full">
+            <h3>Simple page structure</h3>
+<pre><code><span class="punct">&lt;</span><span class="tag">header</span><span class="punct">&gt;</span>
+  <span class="punct">&lt;</span><span class="tag">nav</span><span class="punct">&gt;</span>Menu<span class="punct">&lt;/</span><span class="tag">nav</span><span class="punct">&gt;</span>
+<span class="punct">&lt;/</span><span class="tag">header</span><span class="punct">&gt;</span>
+
+<span class="punct">&lt;</span><span class="tag">main</span><span class="punct">&gt;</span>
+  <span class="punct">&lt;</span><span class="tag">section</span><span class="punct">&gt;</span>
+    <span class="punct">&lt;</span><span class="tag">h1</span><span class="punct">&gt;</span>Hello<span class="punct">&lt;/</span><span class="tag">h1</span><span class="punct">&gt;</span>
+    <span class="punct">&lt;</span><span class="tag">p</span><span class="punct">&gt;</span>Text here<span class="punct">&lt;/</span><span class="tag">p</span><span class="punct">&gt;</span>
+  <span class="punct">&lt;/</span><span class="tag">section</span><span class="punct">&gt;</span>
+<span class="punct">&lt;/</span><span class="tag">main</span><span class="punct">&gt;</span>
+
+<span class="punct">&lt;</span><span class="tag">footer</span><span class="punct">&gt;</span>Footer text<span class="punct">&lt;/</span><span class="tag">footer</span><span class="punct">&gt;</span></code></pre>
+          </section>
+
+          <section class="panel">
+            <h3>Useful tags</h3>
+            <ul>
+              <li><strong>header</strong> - top part</li>
+              <li><strong>nav</strong> - navigation</li>
+              <li><strong>main</strong> - main content</li>
+              <li><strong>section</strong> - content section</li>
+              <li><strong>article</strong> - independent content</li>
+              <li><strong>footer</strong> - bottom part</li>
+            </ul>
+          </section>
+
+          <section class="panel">
+            <h3>CSS layout</h3>
+            <p>CSS controls the position of these elements.</p>
+<pre><code>.page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}</code></pre>
+          </section>
+        </div>
+        <footer>
+          <span>HTML Review · Page 8 of 9</span>
+          <a href="metadata.html">Next: Metadata →</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML forms review.">
+  <title>HTML Review - Forms</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site">
+    <aside class="sidebar">
+      <a class="logo" href="index.html">&lt;/&gt;</a>
+      <h2>HTML review</h2>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="index.html"><span class="icon">⌂</span>Home & structure</a></li>
+          <li><a class="nav-link" href="formatting.html"><span class="icon">Aa</span>Text formatting</a></li>
+          <li><a class="nav-link" href="links-media.html"><span class="icon">↗</span>Links & media</a></li>
+          <li><a class="nav-link" href="lists.html"><span class="icon">☷</span>Lists</a></li>
+          <li><a class="nav-link" href="tables.html"><span class="icon">▦</span>Tables</a></li>
+          <li><a class="nav-link active" href="forms.html"><span class="icon">▤</span>Forms</a></li>
+          <li><a class="nav-link" href="multimedia.html"><span class="icon">▶</span>Multimedia</a></li>
+          <li><a class="nav-link" href="semantic.html"><span class="icon">#</span>Semantic & layout</a></li>
+          <li><a class="nav-link" href="metadata.html"><span class="icon">◆</span>Metadata</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <div class="page">
+        <section class="hero">
+          <p class="eyebrow">Page 6 · Forms</p>
+          <h1>Create a form<br><span>for user input</span></h1>
+          <p>Forms let users enter information such as names, email addresses and messages.</p>
+        </section>
+
+        <div class="content-grid">
+          <section class="panel full">
+            <h3>Example form</h3>
+            <form class="demo-form" action="#">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+              </div>
+              <div class="field">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic">
+                  <option>HTML</option>
+                  <option>CSS</option>
+                  <option>Forms</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..."></textarea>
+              </div>
+              <div class="buttons">
+                <button class="primary" type="submit">Send</button>
+                <button class="secondary" type="reset">Clear</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="panel">
+            <h3>Common inputs</h3>
+            <div class="badges">
+              <span class="badge">text</span>
+              <span class="badge">email</span>
+              <span class="badge">number</span>
+              <span class="badge">date</span>
+              <span class="badge">radio</span>
+              <span class="badge">checkbox</span>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h3>Simple example</h3>
+<pre><code><span class="punct">&lt;</span><span class="tag">label</span> <span class="attr">for</span>=<span class="value">&quot;name&quot;</span><span class="punct">&gt;</span>Name<span class="punct">&lt;/</span><span class="tag">label</span><span class="punct">&gt;</span>
+<span class="punct">&lt;</span><span class="tag">input</span> <span class="attr">type</span>=<span class="value">&quot;text&quot;</span> <span class="attr">id</span>=<span class="value">&quot;name&quot;</span><span class="punct">&gt;</span></code></pre>
+          </section>
+        </div>
+        <footer>
+          <span>HTML Review · Page 6 of 9</span>
+          <a href="multimedia.html">Next: Multimedia →</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
