@@ -1,5 +1,5 @@
 ## ⚠️ AI Disclaimer
-Yes, we used artificial intelligence to help build this perfect website.The bot did the dirty work so we could drink more cofee and type less(but we have done basic stuff). Deal with it.
+Yes, we used artificial intelligence to help build this perfect website.The bot did the dirty work so we could drink more cofee and type less(but we have done basic stuff).
 HTML REVIEW WEBSITE
 ===================
 Structure:
