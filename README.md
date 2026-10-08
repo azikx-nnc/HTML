@@ -14,4 +14,3 @@ Structure:
   metadata.html           Page 9 
   css/style.css           Shared stylesheet for all pages
   images/                 Image, audio and video assets
-
